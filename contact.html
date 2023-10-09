@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conatct Page</title>
+</head>
+<body>
+    <h1>Feel free to contact us anytime with your questions, reservations, or special requests; we'd love to hear from you.</h1>
+    <h2>Please provide your information, and we'll get in touch with you as soon as possible.</h2>
+    <br />
+    <form>
+    <table>
+        <tr>
+            <td>
+                <label for="name">Name:</label>
+            </td>
+            <td>
+                <input type="text" id="name" name="name" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="number">Phone Number:</label>
+            </td>
+            <td>
+                <input type="number" id="number" name="number" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="message">Your Message:</label>
+            </td>
+            <td>
+                <textarea id="message" name="message" required></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>How would you prefer us to contact you?</label>
+            </td>
+            <td>
+                <input type="radio" name="contact" value="Phone" required/> <label for="contact-phone">Phone</label>
+                <input type="radio" name="contact" value="Email" required/> <label for="contact-email">Email</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="SEND">
+            </td>
+        </tr>
+    </table>
+    </form>
+    <a href="index.html">Home Page</a>
+</body>
+</html>

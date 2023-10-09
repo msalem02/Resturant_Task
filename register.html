@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Page</title>
+</head>
+<body>
+    <h1>Please Fill The information below to create account</h1>
+    <form>
+    <table>
+        <tr>
+            <td>
+                <label for="fname">First name:</label>
+            </td>
+            <td>
+                <input type="text" id="fname" name="fname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lname">Last name:</label>
+            </td>
+            <td>
+                <input type="text" id="lname" name="lname" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email:</label>
+            </td>
+            <td>
+                <input type="email" id="email" name="email" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="password">Password:</label>
+            </td>
+            <td>
+                <input type="password" id="password" name="password" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="number">Phone Number:</label>
+            </td>
+            <td>
+                <input type="number" id="number" name="number" required/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label>Gender:</label>
+            </td>
+            <td>
+                <input type="radio" name="gender" value="male" required/>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="female" required/>
+                <label for="female">Female</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Register">
+            </td>
+        </tr>
+    </table>
+    </form>
+      <p>If you already have an account, please  <a href="login.html">click here. </a> </p>
+</body>
+</html>
